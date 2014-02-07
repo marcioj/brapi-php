@@ -6,7 +6,13 @@ php:
   - 5.5
   - hhvm
 
+env:
+  matrix:
+    secure: azBstdb+0yvd7RGltXo1VyEEDDQLuItLbUIaaFmhZYipHfE5azcdApDkofI7Sl6uyzp1+4+vJh7TWHiNiwsJphUascuptsmedrpkZm+AEwCrXeIpk0rUhv6wTkUcBYUa7h4tX9dX5D0Ix4YdvbFi1vO229/2hIrUsPrHAXMG8UA=
+    allow_failures:
+      php: hhvm
+
 before_script:
-  - composer install
+- composer install
 
 script: phpunit --configuration phpunit.xml --coverage-text

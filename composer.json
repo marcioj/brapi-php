@@ -3,7 +3,6 @@
     "mashape/unirest-php": "dev-master"
   },
   "require-dev": {
-    "phpunit/phpunit": "3.7.30",
-    "josegonzalez/dotenv": "dev-master"
+    "phpunit/phpunit": "3.7.30"
   }
 }

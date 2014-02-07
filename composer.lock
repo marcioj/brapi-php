@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "7b8a5942c1bcf7d9c27917cb46cad897",
+    "hash": "be94e59b6dc839cb1e7b5a8dd789aef3",
     "packages": [
         {
             "name": "mashape/unirest-php",
@@ -56,53 +56,6 @@
         }
     ],
     "packages-dev": [
-        {
-            "name": "josegonzalez/dotenv",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/josegonzalez/php-dotenv.git",
-                "reference": "f0afbee304a2cfcc57b6b7bb810a42042f62c94a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/josegonzalez/php-dotenv/zipball/f0afbee304a2cfcc57b6b7bb810a42042f62c94a",
-                "reference": "f0afbee304a2cfcc57b6b7bb810a42042f62c94a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "josegonzalez\\Dotenv": [
-                        "src",
-                        "tests"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jose Diaz-Gonzalez",
-                    "email": "dotenv@josegonzalez.com",
-                    "homepage": "http://josediazgonzalez.com",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "dotenv file parsing for PHP",
-            "homepage": "https://github.com/josegonzalez/php-dotenv",
-            "keywords": [
-                "configuration",
-                "dotenv",
-                "php"
-            ],
-            "time": "2014-02-04 19:38:56"
-        },
         {
             "name": "phpunit/php-code-coverage",
             "version": "1.2.15",
@@ -523,8 +476,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mashape/unirest-php": 20,
-        "josegonzalez/dotenv": 20
+        "mashape/unirest-php": 20
     },
     "platform": [
 
