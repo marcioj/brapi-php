@@ -1,5 +1,4 @@
 <?php
-require_once 'TestHelper.php';
 require_once 'src/Brapi/Client.php';
 
 class BrapiTest extends PHPUnit_Framework_TestCase {

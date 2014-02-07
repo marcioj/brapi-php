@@ -1,4 +1,4 @@
-<phpunit>
+<phpunit bootstrap="tests/TestHelper.php" colors="true">
   <testsuites>
     <testsuite name="Brapi">
       <directory>Tests</directory>
