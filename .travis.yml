@@ -4,13 +4,10 @@ php:
   - 5.3
   - 5.4
   - 5.5
-  - hhvm
 
 env:
   matrix:
-  - allow_failures:
-      php: hhvm
-  - secure: Z+aHwB7+nRmBZVdQ5S2dovXZak0a8S2qWIF57DDLIjKF/ag/jaX8SOGZ3Ka/ghclNb1BXnKD/g9Pfy6cLmXaWHLV03Oo+qzNOAPQGbelAuorddPIAyeL/rbUGz78tLhmofRUYCkv9fnt2BfDbiwY9w+1i2MwVdWHsNW4aXxTeoc=
+    secure: CINPTTJJKVBX6Nh/qiKNBLWQwwisHwuMa+TFXS/AMaWQsthpXxVNEtItD63stF9YdMzrJRcbqnC0XpeiAlKtmvQkftEEzNwcHA31IQzZXvWtIod2lvfNu4oP31SPyMNNqUX1yS8KhwyXLfC8G4ehPUW9m20DKvB1iy64o6xtW9o=
 
 before_script:
   - composer install
