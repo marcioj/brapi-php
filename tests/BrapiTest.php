@@ -6,7 +6,7 @@ class BrapiTest extends PHPUnit_Framework_TestCase {
   private $client;
 
   public function setUp() {
-    $access_token = $_ENV['BRAPI_ACCESS_TOKEN'];
+    $access_token = getenv('BRAPI_ACCESS_TOKEN');
     $user_agent = 'BrapiPHP';
 
     $this->client = new \Brapi\Client($access_token, $user_agent);
