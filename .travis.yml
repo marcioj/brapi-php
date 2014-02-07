@@ -8,11 +8,11 @@ php:
 
 env:
   matrix:
-    secure: azBstdb+0yvd7RGltXo1VyEEDDQLuItLbUIaaFmhZYipHfE5azcdApDkofI7Sl6uyzp1+4+vJh7TWHiNiwsJphUascuptsmedrpkZm+AEwCrXeIpk0rUhv6wTkUcBYUa7h4tX9dX5D0Ix4YdvbFi1vO229/2hIrUsPrHAXMG8UA=
-    allow_failures:
+  - allow_failures:
       php: hhvm
+  - secure: Z+aHwB7+nRmBZVdQ5S2dovXZak0a8S2qWIF57DDLIjKF/ag/jaX8SOGZ3Ka/ghclNb1BXnKD/g9Pfy6cLmXaWHLV03Oo+qzNOAPQGbelAuorddPIAyeL/rbUGz78tLhmofRUYCkv9fnt2BfDbiwY9w+1i2MwVdWHsNW4aXxTeoc=
 
 before_script:
-- composer install
+  - composer install
 
 script: phpunit --configuration phpunit.xml --coverage-text
