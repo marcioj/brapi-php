@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "be94e59b6dc839cb1e7b5a8dd789aef3",
+    "hash": "c6edf92bcbe9cf4949c11eb3a718c2bb",
     "packages": [
         {
             "name": "mashape/unirest-php",
@@ -478,9 +478,9 @@
     "stability-flags": {
         "mashape/unirest-php": 20
     },
-    "platform": [
-
-    ],
+    "platform": {
+        "php": ">=5.3.0"
+    },
     "platform-dev": [
 
     ]
