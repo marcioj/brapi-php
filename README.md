@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Helabs/brapi-php.png)](https://travis-ci.org/Helabs/brapi-php)
 [![Latest Stable Version](https://poser.pugx.org/helabs/brapi/v/stable.png)](https://packagist.org/packages/helabs/brapi)
+[![Dependency Status](https://www.versioneye.com/user/projects/52f5e714ec1375fd0b0000c8/badge.png)](https://www.versioneye.com/user/projects/52f5e714ec1375fd0b0000c8)
 
 PHP package to interact with the brapi.io APIs
 
