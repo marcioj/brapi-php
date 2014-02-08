@@ -1,5 +1,6 @@
 # Brapi.io PHP Client
 
+[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/Helabs/brapi-php/badges/quality-score.png?s=f6f377c47317eda2b2c6b9a6cef907d9e4b74171)](https://scrutinizer-ci.com/g/Helabs/brapi-php/)
 [![Build Status](https://travis-ci.org/Helabs/brapi-php.png)](https://travis-ci.org/Helabs/brapi-php)
 [![Latest Stable Version](https://poser.pugx.org/helabs/brapi/v/stable.png)](https://packagist.org/packages/helabs/brapi)
 [![Dependency Status](https://www.versioneye.com/user/projects/52f5e714ec1375fd0b0000c8/badge.png)](https://www.versioneye.com/user/projects/52f5e714ec1375fd0b0000c8)
