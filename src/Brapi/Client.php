@@ -23,7 +23,15 @@ class Client {
     if ($response->code == 200) {
       return new Zipcode($response->body);
     } else {
+      $this->__raiseError($response);
+    }
+  }
+
+  private function __raiseError($response) {
+    if (is_object($response->body)) {
       throw new Error($response->body->error);
+    } else {
+      throw new Error($response->body);
     }
   }
 

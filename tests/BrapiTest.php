@@ -27,8 +27,15 @@ class BrapiTest extends PHPUnit_Framework_TestCase {
   }
 
   public function testInvalidZipcode() {
-    $this->setExpectedException('\Brapi\Error');
+    $this->setExpectedException('\Brapi\Error', 'Not Found');
     $this->client->zipcode('ola');
+  }
+
+  public function testInvalidAccessToken() {
+    $this->setExpectedException('\Brapi\Error', 'HTTP Basic: Access denied.');
+
+    $client = new \Brapi\Client('invalid', 'BrapiPHP');
+    $client->zipcode('20071003');
   }
 
 }
