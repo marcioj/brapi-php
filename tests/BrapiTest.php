@@ -7,9 +7,11 @@ class BrapiTest extends PHPUnit_Framework_TestCase {
 
   public function setUp() {
     $access_token = getenv('BRAPI_ACCESS_TOKEN');
-    $user_agent = 'BrapiPHP';
+    $this->client = new \Brapi\Client($access_token, 'BrapiPHP');
+  }
 
-    $this->client = new \Brapi\Client($access_token, $user_agent);
+  public function tearDown() {
+    unset($this->client);
   }
 
   public function testValidZipcode() {
@@ -32,10 +34,10 @@ class BrapiTest extends PHPUnit_Framework_TestCase {
   }
 
   public function testInvalidAccessToken() {
-    $this->setExpectedException('\Brapi\Error', 'HTTP Basic: Access denied.');
+    $this->client = new \Brapi\Client('invalid', 'BrapiPHP');
 
-    $client = new \Brapi\Client('invalid', 'BrapiPHP');
-    $client->zipcode('20071003');
+    $this->setExpectedException('\Brapi\Error', 'Unauthorized');
+    $this->client->zipcode('20071003');
   }
 
 }
