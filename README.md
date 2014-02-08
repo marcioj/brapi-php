@@ -11,12 +11,12 @@ Add this line to your `composer.json`:
 ```json
 {
   "require": {
-    "helabs/brapi": "0.0.1"
+    "helabs/brapi": "dev-master"
   }
 }
 ```
 
-And then execute:
+And then install it:
 
 ```shell
 $ composer install
