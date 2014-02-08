@@ -1,6 +1,7 @@
 # Brapi.io PHP Client
 
 [![Build Status](https://travis-ci.org/Helabs/brapi-php.png)](https://travis-ci.org/Helabs/brapi-php)
+[![Latest Stable Version](https://poser.pugx.org/helabs/brapi/v/stable.png)](https://packagist.org/packages/helabs/brapi)
 
 PHP package to interact with the brapi.io APIs
 
