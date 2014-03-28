@@ -69,6 +69,10 @@ If you have problems, please create a [Github Issue](https://github.com/Helabs/b
 
 Please see [CONTRIBUTING.md](https://github.com/Helabs/brapi-php/blob/master/CONTRIBUTING.md) for details.
 
+## Maintainers
+
+- [Thiago Belem](https://github.com/TiuTalk)
+
 ## Release
 
 TODO
