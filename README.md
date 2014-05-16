@@ -77,13 +77,9 @@ Please see [CONTRIBUTING.md](https://github.com/Helabs/brapi-php/blob/master/CON
 
 TODO
 
-## Credits
-
-Brapi.io PHP Client is maintained and funded by [HE:labs](http://helabs.com.br/en/opensource/).
-Thank you to all the [contributors](https://github.com/Helabs/brapi-php/graphs/contributors).
-
 ## Made with love by HE:labs
 
 ![HE:labs](http://helabs.com.br/images/logo.png)
 
 This package was created and is maintained by [HE:labs](https://github.com/Helabs).
+Thank you to all the [contributors](https://github.com/Helabs/brapi-php/graphs/contributors).
